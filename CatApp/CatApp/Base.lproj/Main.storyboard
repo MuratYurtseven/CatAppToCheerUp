@@ -13,7 +13,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="1900"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Er-XP-Qti">
@@ -98,7 +98,7 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="eLi-ca-FGa"/>
                             </scrollView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Mw-UG-NVi">
-                                <rect key="frame" x="0.0" y="452" width="393" height="1448"/>
+                                <rect key="frame" x="0.0" y="452" width="393" height="400"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GDX-Oe-GkA">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="1280"/>
@@ -155,6 +155,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="oS8-0I-CRG"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -163,6 +164,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="H8n-h0-IuE"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -171,6 +173,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="tFu-HI-7mX"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -179,6 +182,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="MBn-vu-fp3"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -187,6 +191,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="jua-0p-9LB"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -205,6 +210,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="oID-fF-Xjm"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -213,6 +219,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="i68-yX-ctE"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -221,6 +228,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="87p-Ug-weL"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -229,6 +237,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="Udq-pm-f3U"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -237,6 +246,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="kt9-Te-9L2"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -255,6 +265,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="olk-Eb-8ig"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -263,6 +274,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="pVf-ac-Sth"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -271,6 +283,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="aYg-oX-u7f"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -279,6 +292,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="dkl-CI-V5l"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -287,6 +301,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="yGP-W0-jqu"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -305,6 +320,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="OYL-w5-x5U"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -313,6 +329,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="J7Y-D8-pxB"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -321,6 +338,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="fY0-ae-DNF"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -329,6 +347,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="cxq-Zt-0js"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -337,6 +356,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="ZMN-S4-ZeN"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -354,6 +374,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="3sC-sI-g7j"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -362,6 +383,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="u2c-Gv-SXl"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -370,6 +392,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="L1O-fH-OSu"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -378,6 +401,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="Hxn-bS-Ocb"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -386,6 +410,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="6Xa-xh-NCm"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -403,6 +428,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="3Yu-WJ-XeR"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -411,6 +437,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="6BD-cX-4UH"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -419,6 +446,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="5ne-hu-vgy"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -427,6 +455,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="DFL-LF-2tU"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -435,6 +464,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="Rm5-h3-i1R"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -452,6 +482,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="XF5-p9-5ZR"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -460,6 +491,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="VAl-MU-BKC"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -468,6 +500,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="06y-bL-5uW"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -476,6 +509,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="f1a-Qw-dKd"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
@@ -484,13 +518,18 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="Dmi-ah-4Kw"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="star" catalog="system"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJi-g1-1K3">
                                                 <rect key="frame" x="20" y="1177" width="50" height="35"/>
+                                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="safari.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="toWikiButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CET-y7-t1A"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wikipedia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xks-XY-q9k">
                                                 <rect key="frame" x="8" y="1141" width="75" height="21"/>
@@ -506,8 +545,12 @@
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0LA-Jd-pTl">
                                                 <rect key="frame" x="171.66666666666666" y="1177" width="50" height="35"/>
+                                                <color key="tintColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="safari.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="toVetstreetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x06-kZ-AEG"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CFA " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZu-M8-QcU">
                                                 <rect key="frame" x="333" y="1141" width="36" height="21"/>
@@ -517,8 +560,12 @@
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gt8-xr-hbV">
                                                 <rect key="frame" x="323" y="1177" width="50" height="35"/>
+                                                <color key="tintColor" systemColor="systemOrangeColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="safari.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="toCFAButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6pB-ar-7CX"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -668,7 +715,6 @@
                             <constraint firstItem="9Mw-UG-NVi" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zW3-Jo-kSR"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="393" height="1900"/>
                     <connections>
                         <outlet property="AFL1" destination="6L7-mn-mvU" id="TZr-B7-gHb"/>
                         <outlet property="AFL2" destination="GN2-O2-uJq" id="r0B-rG-6P8"/>
@@ -680,8 +726,38 @@
                         <outlet property="ALB3" destination="7um-b6-mfz" id="7wg-D0-RrA"/>
                         <outlet property="ALB4" destination="QWX-hd-hCS" id="eev-Vv-ywh"/>
                         <outlet property="ALB5" destination="m7c-yi-Ehe" id="8PU-pk-1iH"/>
+                        <outlet property="CFLB1" destination="azB-LX-oCe" id="Xvz-MZ-pyW"/>
+                        <outlet property="CFLB2" destination="t44-LS-z8G" id="0zm-Hs-cvU"/>
+                        <outlet property="CFLB3" destination="KAe-yy-0hw" id="rcU-1G-GzB"/>
+                        <outlet property="CFLB4" destination="Xpe-80-jen" id="AYa-Xn-kGK"/>
+                        <outlet property="CFLB5" destination="y0q-4A-QSF" id="ksi-bJ-KSc"/>
+                        <outlet property="DFLB1" destination="xLj-Qs-GfI" id="1EI-uE-0Bf"/>
+                        <outlet property="DFLB2" destination="150-sV-swm" id="0n8-c1-ZBL"/>
+                        <outlet property="DFLB3" destination="dTL-wS-O4h" id="FhF-cm-RUd"/>
+                        <outlet property="DFLB4" destination="4UN-WJ-Jp2" id="nl4-SL-i8v"/>
+                        <outlet property="DFLB5" destination="GkZ-Fz-mV6" id="i1t-km-dEv"/>
+                        <outlet property="ELB1" destination="8cD-IB-DHi" id="F0g-rH-2BS"/>
+                        <outlet property="ELB2" destination="zuF-mb-HUG" id="Pny-IM-EEB"/>
+                        <outlet property="ELB3" destination="Gla-Xz-Gph" id="HHt-f5-uMT"/>
+                        <outlet property="ELB4" destination="9uh-0A-97J" id="Zcx-gT-XmO"/>
+                        <outlet property="ELB5" destination="zYD-mk-7Gd" id="gG8-SX-do0"/>
+                        <outlet property="HILB1" destination="CNn-SL-cf8" id="MHZ-Pz-Py5"/>
+                        <outlet property="HILB2" destination="Ajj-iw-Lve" id="0YA-mX-Uuc"/>
+                        <outlet property="HILB3" destination="4vY-pk-XKv" id="K3Q-U2-IWI"/>
+                        <outlet property="HILB4" destination="81z-rb-cum" id="afE-d6-JoC"/>
+                        <outlet property="HILB5" destination="b0g-XZ-h1X" id="7VB-RM-BZr"/>
+                        <outlet property="ILB1" destination="4qd-7K-p3A" id="ctl-fr-bOv"/>
+                        <outlet property="ILB2" destination="dTt-3R-cQy" id="RDu-Wx-0G9"/>
+                        <outlet property="ILB3" destination="C2y-ub-9Xr" id="kns-ge-clR"/>
+                        <outlet property="ILB4" destination="XWm-c8-IF3" id="JvY-lG-oWO"/>
+                        <outlet property="ILB5" destination="oWV-vT-0ZC" id="tad-oE-Jd9"/>
                         <outlet property="catAdaptabilityLevel" destination="3HJ-fH-Gh4" id="BTa-qg-sol"/>
                         <outlet property="catAffectionLevel" destination="uT5-aq-C3c" id="kYO-ex-jO6"/>
+                        <outlet property="catChildFriendlyLevel" destination="kRH-xT-Icn" id="JV6-9l-bKB"/>
+                        <outlet property="catDogFriendlyLevel" destination="slD-df-puX" id="ZQq-xA-SPR"/>
+                        <outlet property="catEneryLevel" destination="og2-H4-BZ4" id="lKy-St-W3x"/>
+                        <outlet property="catHealthIssuesLevel" destination="hPC-E0-2Ky" id="hBA-Id-b4c"/>
+                        <outlet property="catIntelligenceLevel" destination="u6p-bd-VzW" id="8uy-db-wzB"/>
                         <outlet property="catNameLabel" destination="x00-fD-Boa" id="PdZ-cr-LoH"/>
                         <outlet property="catOriginLabel" destination="G5M-W0-Yzt" id="kYv-Yk-Vmr"/>
                         <outlet property="catPlotLabel" destination="JGZ-TR-cwg" id="con-Zm-umz"/>
@@ -707,6 +783,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

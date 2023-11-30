@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBABC07C2B18A1F200609E2D /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABC07B2B18A1F200609E2D /* Router.swift */; };
+		FBABC07E2B18A1FC00609E2D /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABC07D2B18A1FC00609E2D /* Presenter.swift */; };
+		FBABC0802B18A20800609E2D /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABC07F2B18A20800609E2D /* Interactor.swift */; };
+		FBABC0822B18A21600609E2D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABC0812B18A21600609E2D /* Protocols.swift */; };
+		FBABC0852B18AA3000609E2D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FBABC0842B18AA3000609E2D /* Alamofire */; };
+		FBABC0882B18AA8300609E2D /* AllCatsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABC0872B18AA8300609E2D /* AllCatsResponse.swift */; };
+		FBABC08A2B18AAB200609E2D /* AllCatsWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABC0892B18AAB200609E2D /* AllCatsWeight.swift */; };
+		FBABC08C2B18BE9500609E2D /* CatImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBABC08B2B18BE9500609E2D /* CatImages.swift */; };
 		FBF799EE2B166F2A006BA30D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF799ED2B166F2A006BA30D /* AppDelegate.swift */; };
 		FBF799F02B166F2A006BA30D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF799EF2B166F2A006BA30D /* SceneDelegate.swift */; };
 		FBF799F22B166F2A006BA30D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF799F12B166F2A006BA30D /* ViewController.swift */; };
@@ -16,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FBABC07B2B18A1F200609E2D /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		FBABC07D2B18A1FC00609E2D /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		FBABC07F2B18A20800609E2D /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		FBABC0812B18A21600609E2D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		FBABC0872B18AA8300609E2D /* AllCatsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCatsResponse.swift; sourceTree = "<group>"; };
+		FBABC0892B18AAB200609E2D /* AllCatsWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCatsWeight.swift; sourceTree = "<group>"; };
+		FBABC08B2B18BE9500609E2D /* CatImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImages.swift; sourceTree = "<group>"; };
 		FBF799EA2B166F2A006BA30D /* CatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF799ED2B166F2A006BA30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF799EF2B166F2A006BA30D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,12 +46,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBABC0852B18AA3000609E2D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FBABC0752B18A18200609E2D /* main-module */ = {
+			isa = PBXGroup;
+			children = (
+				FBABC0792B18A1A200609E2D /* protocols */,
+				FBABC0782B18A19900609E2D /* interactor */,
+				FBABC0772B18A19300609E2D /* presenter */,
+				FBABC07A2B18A1A900609E2D /* router */,
+				FBABC0762B18A18F00609E2D /* view */,
+			);
+			path = "main-module";
+			sourceTree = "<group>";
+		};
+		FBABC0762B18A18F00609E2D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FBF799F12B166F2A006BA30D /* ViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FBABC0772B18A19300609E2D /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FBABC07D2B18A1FC00609E2D /* Presenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		FBABC0782B18A19900609E2D /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FBABC07F2B18A20800609E2D /* Interactor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		FBABC0792B18A1A200609E2D /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FBABC0812B18A21600609E2D /* Protocols.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		FBABC07A2B18A1A900609E2D /* router */ = {
+			isa = PBXGroup;
+			children = (
+				FBABC07B2B18A1F200609E2D /* Router.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		FBABC0862B18AA5700609E2D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FBABC0872B18AA8300609E2D /* AllCatsResponse.swift */,
+				FBABC0892B18AAB200609E2D /* AllCatsWeight.swift */,
+				FBABC08B2B18BE9500609E2D /* CatImages.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		FBF799E12B166F2A006BA30D = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +136,8 @@
 			children = (
 				FBF799ED2B166F2A006BA30D /* AppDelegate.swift */,
 				FBF799EF2B166F2A006BA30D /* SceneDelegate.swift */,
-				FBF799F12B166F2A006BA30D /* ViewController.swift */,
+				FBABC0752B18A18200609E2D /* main-module */,
+				FBABC0862B18AA5700609E2D /* Entity */,
 				FBF799F32B166F2A006BA30D /* Main.storyboard */,
 				FBF799F62B166F2B006BA30D /* Assets.xcassets */,
 				FBF799F82B166F2B006BA30D /* LaunchScreen.storyboard */,
@@ -83,6 +162,9 @@
 			dependencies = (
 			);
 			name = CatApp;
+			packageProductDependencies = (
+				FBABC0842B18AA3000609E2D /* Alamofire */,
+			);
 			productName = CatApp;
 			productReference = FBF799EA2B166F2A006BA30D /* CatApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +193,9 @@
 				Base,
 			);
 			mainGroup = FBF799E12B166F2A006BA30D;
+			packageReferences = (
+				FBABC0832B18AA3000609E2D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = FBF799EB2B166F2A006BA30D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +223,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBABC08C2B18BE9500609E2D /* CatImages.swift in Sources */,
+				FBABC0802B18A20800609E2D /* Interactor.swift in Sources */,
+				FBABC07C2B18A1F200609E2D /* Router.swift in Sources */,
+				FBABC0822B18A21600609E2D /* Protocols.swift in Sources */,
+				FBABC0882B18AA8300609E2D /* AllCatsResponse.swift in Sources */,
 				FBF799F22B166F2A006BA30D /* ViewController.swift in Sources */,
 				FBF799EE2B166F2A006BA30D /* AppDelegate.swift in Sources */,
 				FBF799F02B166F2A006BA30D /* SceneDelegate.swift in Sources */,
+				FBABC07E2B18A1FC00609E2D /* Presenter.swift in Sources */,
+				FBABC08A2B18AAB200609E2D /* AllCatsWeight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +455,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FBABC0832B18AA3000609E2D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FBABC0842B18AA3000609E2D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FBABC0832B18AA3000609E2D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FBF799E22B166F2A006BA30D /* Project object */;
 }
