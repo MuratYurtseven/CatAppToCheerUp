@@ -95,6 +95,10 @@ class ViewController: UIViewController {
     
     var justOneTimesLaod = true
     
+    var toWiki:String?
+    var toVetstreet:String?
+    var toCFA:String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -122,15 +126,27 @@ class ViewController: UIViewController {
     
     
     @IBAction func toWikiButton(_ sender: Any) {
-    }
+        if let towikiString = toWiki{
+            if let url = URL(string:towikiString) {
+                UIApplication.shared.open(url)
+            }
+        }}
     
     
     
     @IBAction func toVetstreetButton(_ sender: Any) {
+        if let totoVetstreetString = toVetstreet{
+            if let url = URL(string: totoVetstreetString) {
+                UIApplication.shared.open(url)
+            }}
     }
     
 
     @IBAction func toCFAButton(_ sender: Any) {
+        if let toCFAString = toCFA{
+            if let url = URL(string: toCFAString) {
+                UIApplication.shared.open(url)
+            }}
     }
     
     func funcOfButtons(buttonsList:[UIButton],indeks:Int){
@@ -226,6 +242,9 @@ extension ViewController : UIPickerViewDelegate,UIPickerViewDataSource{
             funcOfButtons(buttonsList: listHILB, indeks: selectedCatDetails.health_issues!)
             funcOfButtons(buttonsList: listILB, indeks: selectedCatDetails.intelligence!)
             self.presenterObject?.getCatImages(catBreedId: selectedCatDetails.id!)
+            self.toWiki = selectedCatDetails.wikipedia_url ?? ""
+            self.toVetstreet = selectedCatDetails.vetstreet_url ?? ""
+            self.toCFA = selectedCatDetails.cfa_url ?? ""
         }
     }
 }
