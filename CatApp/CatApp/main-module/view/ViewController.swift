@@ -93,7 +93,7 @@ class ViewController: UIViewController {
     
     var listNameAndCats = [String:CatResponse]()
     
-    
+    var justOneTimesLaod = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -113,10 +113,7 @@ class ViewController: UIViewController {
         listHILB = [HILB1,HILB2,HILB3,HILB4,HILB5]
         listILB = [ILB1,ILB2,ILB3,ILB4,ILB5]
 
-        
-        
-        
-        
+
     }
     override func viewWillAppear(_ animated: Bool) {
         self.presenterObject?.toGetAllCats()
@@ -154,6 +151,21 @@ extension ViewController:PresenterToViewProtocol{
     func sendDataToView(sendData: Array<CatResponse>) {
         for item in sendData{
             self.listNameAndCats[item.name!] = item
+            if justOneTimesLaod{
+                catNameLabel.text = item.name
+                catTemperamentLabel.text = item.temperament
+                catPlotLabel.text = item.description
+                catOriginLabel.text = item.origin
+                funcOfButtons(buttonsList: listAFL, indeks: item.affection_level!)
+                funcOfButtons(buttonsList: listALB, indeks: item.adaptability!)
+                funcOfButtons(buttonsList: listCFLB, indeks: item.child_friendly!)
+                funcOfButtons(buttonsList: listDFLB, indeks: item.dog_friendly!)
+                funcOfButtons(buttonsList: listELB, indeks: item.energy_level!)
+                funcOfButtons(buttonsList: listHILB, indeks: item.health_issues!)
+                funcOfButtons(buttonsList: listILB, indeks: item.intelligence!)
+                self.presenterObject?.getCatImages(catBreedId: item.id!)
+                justOneTimesLaod = false
+            }
         }
         DispatchQueue.main.async {
             self.pickerView.reloadAllComponents()
@@ -165,26 +177,28 @@ extension ViewController:PresenterToViewProtocol{
             if let urlString = catImage.url , let url = URL(string: urlString){
                 DispatchQueue.global().async {
                     if let data = try? Data(contentsOf: url){
-                        DispatchQueue.main.async {
+                        DispatchQueue.main.asyncAfter(deadline: .now()+0.10) {
                             switch indeks{
                             case 0:
                                 self.firstImageView.image = UIImage(data: data)
+                                
                             case 1:
                                 self.secondImageView.image = UIImage(data: data)
+                                
                             case 2:
                                 self.thirdImageView.image = UIImage(data: data)
+                               
                             case 3:
                                 self.fourthImageView.image = UIImage(data: data)
+                                
                             case 4:
                                 self.fifthImageView.image = UIImage(data: data)
+                                
                             default:
                                 break
                             }}}}}}}
     
 }
-
-
-
 
 extension ViewController : UIPickerViewDelegate,UIPickerViewDataSource{
     
